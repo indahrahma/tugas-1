@@ -1,0 +1,28 @@
+<?xml version=”1.0”?>
+<!DOCTYPE daftarfilm [
+  <!ELEMENT daftarfilm   (datafilm)>
+  <!ELEMENT datafilm (judul | pemain | sutradara | jenisfilm | produser)>
+  <!ELEMENT judul      (#PCDATA)>
+  <!ELEMENT pemain     (#PCDATA)>
+  <!ELEMENT sutradara  (#PCDATA)>
+  <!ELEMENT jenisfilm  (#PCDATA)>
+  <!ELEMENT produser   (#PCDATA)>
+]>
+<daftarfilm >
+   <datafilm >
+      <judul> Harry Potter </judul>
+      <pemain > Harry Potter </pemain>
+   </datafilm>
+   <datafilm>
+      <judul> Harry Potter </judul>
+      <sutradara> Mike Newell</sutradara>
+   </datafilm>
+   <datafilm>
+      <judul> Harry Potter </judul>
+      <jenisfilm > Fantasi </jenisfilm>      
+   </datafilm>
+   <datafilm>
+<judul> Harry Potter </judul>
+      <produser> J. K. Rowling</produser>      
+</datafilm>
+</daftarfilm>
