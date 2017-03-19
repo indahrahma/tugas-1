@@ -1,0 +1,7 @@
+< ! ELEMENT daftarfilm (datafilm+) >
+<!ELEMENT datafilm (judul, pemain, sutradara, jenisfilm+, produser*) >
+<!ELEMENT judul (#PCDATA) >
+<!ELEMENT pemain (#PCDATA) >
+<!ELEMENT sutradara (#PCDATA) >
+<!ELEMENT jenisfilm (#PCDATA) >
+<!ELEMENT produser (#PCDATA) >
